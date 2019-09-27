@@ -1,7 +1,7 @@
 {
-  "name": "template-module",
+  "name": "@server-state/mysql-state-module",
   "version": "0.1.0",
-  "description": "Default template for server-base modules",
+  "description": "A module for querying the MySQL state show by `SHOW status`",
   "main": "index.js",
   "private": true,
   "scripts": {

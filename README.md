@@ -1,6 +1,10 @@
-# template-module
-Default template for server-base modules
+# mysql-state-module
 
-This output generates a straight base to provide other applications useful information like server-state example [client-base](https://github.com/server-state/client-base).
+A module for querying the state of a MySQL server. Its response will be a
+key-value-pair object of the results of
+
+```sql
+SHOW state;
+```
 
 This official module belongs to the organization [server-state](https://github.com/server-state).
