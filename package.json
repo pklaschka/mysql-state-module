@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "A module for querying the MySQL state show by `SHOW status`",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint ./src ./tests",
