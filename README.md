@@ -25,7 +25,7 @@ Since the module uses `mysql2`, which is *mostly API-compatible with `mysqljs/my
 serverState.registerModule('mysql-state', require('@server-state/mysql-state-module'), {
 	host: 'localhost',
 	user: 'my-username',
-	password: 'somePassord'
+	password: 'somePassword'
 });
 ```
 
