@@ -1,7 +1,14 @@
 const mysql = require('mysql2/promise');
 /**
  * A module for the server-state system
- * @returns A JSON-serializable (via `JSON.stringify()`) version information about the server state
+ * 
+ * This module gathers information available by running `SHOW status;` in a MySQL 
+ * or MariaDB database.
+ * @param {object} conifg The connection config. This is the config that gets 
+ * passed to mysql2 which is mostly compatible with mysqljs/mysql, therefore cf. 
+ * https://github.com/mysqljs/mysql#connection-options
+ * @returns A JSON-serializable (via `JSON.stringify()`) 
+ * version information about the server state
  */
 module.exports = async function(config) {
     try {
