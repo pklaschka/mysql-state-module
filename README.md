@@ -1,5 +1,11 @@
 # mysql-state-module
 
+[![Build Status](https://travis-ci.com/server-state/mysql-state-module.svg?branch=master)](https://travis-ci.com/server-state/mysql-state-module)
+![GitHub](https://img.shields.io/github/license/server-state/mysql-state-module)
+[![npm version](https://badge.fury.io/js/%40server-state%2Fmysql-state-module.svg)](https://badge.fury.io/js/%40server-state%2Fmysql-state-module)
+[![Coverage Status](https://coveralls.io/repos/github/server-state/mysql-state-module/badge.svg?branch=master)](https://coveralls.io/github/server-state/mysql-state-module?branch=master)
+![module type: official](https://img.shields.io/badge/module%20type-official-%23015ba0)
+
 A module for querying the state of a MySQL server. Its response will be a
 key-value-pair object of the results of
 
