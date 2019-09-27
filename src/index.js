@@ -6,7 +6,7 @@ const mysql = require('mysql2/promise');
 module.exports = async function(config) {
     try {
         const conn = await mysql.createConnection(config);
-        const [rows, fields] = await conn.execute('SHOW status;');
+        const [rows] = await conn.execute('SHOW status;');
 
         let returnObject = {};
         for (const row of rows) {
