@@ -8,5 +8,6 @@ module.exports = {
     module: {
     },
     externals: {
+        'mysql2/promise': 'mysql2/promise'
     }
 };
