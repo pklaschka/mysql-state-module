@@ -26,6 +26,6 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
-    "mysql2": "^1.7.0"
+    "mysql2": "^2.0.1"
   }
 }
