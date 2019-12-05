@@ -5,12 +5,12 @@ const smf = require('../src/');
 
 describe('mysql-state-module', () => {
     it('should reject if user data is not correct', async (done) => {
-        expect(smf()).rejects.toThrow();
+        await expect(smf()).rejects.toThrow();
         done();
     });
 
     it('should resolve if user data is correct', async (done) => {
-        expect(await (smf({ host: 'localhost', user: 'user', password: 'password' })));
+        await expect(await (smf({ host: 'localhost', user: 'user', password: 'password' })));
         done();
     });
 
