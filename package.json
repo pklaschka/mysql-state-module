@@ -20,7 +20,7 @@
   "homepage": "https://github.com/server-state/mysql-state-module#readme",
   "devDependencies": {
     "coveralls": "^3.0.6",
-    "eslint": "^7.1.0",
+    "eslint": "^8.3.0",
     "jest": "^27.0.0",
     "webpack": "^5.0.0",
     "webpack-cli": "^4.0.0"
